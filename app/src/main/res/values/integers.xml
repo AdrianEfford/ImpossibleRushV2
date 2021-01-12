@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fallAnimation_duration">1300</integer>
+    <integer name="minFallSpeed">950</integer>
+
+    <integer name="rotateSquare_duration">50</integer>
+    <integer name="defaultInteger">0</integer>
+</resources>

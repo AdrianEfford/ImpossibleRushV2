@@ -14,6 +14,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.RequiresApi;
 
+import com.example.myapplication.Music.MusicPlayer;
+import com.example.myapplication.Preferences.SPreferences;
 import com.example.myapplication.R;
 
 public class SettingsDialog extends AlertDialog.Builder {

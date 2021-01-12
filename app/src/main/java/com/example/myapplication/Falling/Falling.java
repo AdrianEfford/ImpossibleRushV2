@@ -23,6 +23,8 @@ import com.example.myapplication.Start.StartAndRanking;
 
 import java.util.Random;
 
+import tyrantgit.explosionfield.ExplosionField;
+
 import static androidx.core.content.ContextCompat.getDrawable;
 
 public class Falling extends RelativeLayout implements IStart {

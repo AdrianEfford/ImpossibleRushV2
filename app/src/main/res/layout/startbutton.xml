@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/startlayout">
+
+    <TextView
+        android:textColor="@color/font_darkMode_bright"
+        android:id="@+id/startTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:rotation="0"
+        android:textStyle="bold|italic"
+        android:textSize="80dp"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+
+</RelativeLayout>

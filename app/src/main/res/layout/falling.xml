@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mylayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:id="@+id/ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_ballshape"></TextView>
+
+    <RelativeLayout
+        android:id="@+id/squareLayout"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="300dp"
+        >
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/green"
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/triangle_shape"></TextView>
+
+        <TextView
+            android:id="@+id/pink"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:rotation="90"
+            android:layout_height="wrap_content"
+            android:background="@drawable/triangle_shape"
+            android:backgroundTint="@color/pink"></TextView>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/blue"
+            android:rotation="180"
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/triangle_shape"></TextView>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/yellow"
+            android:rotation="270"
+            android:id="@+id/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/triangle_shape"></TextView>
+
+    </RelativeLayout>
+
+    <com.example.myapplication.Start.StartAndRanking
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.example.myapplication.Start.StartAndRanking>
+
+
+
+</RelativeLayout>

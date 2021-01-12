@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Impossible rush</string>
+    <string name="preferences_name">preferences</string>
+    <string name="score_text">Score: </string>
+    <string name="bestScore_text">Best <br></br>Score: </string>
+    <string name="keyMusic">music</string>
+    <string name="keyDarkmode">darkmode</string>
+    <string name="version_key">version</string>
+    <string name="UUID">UUID</string>
+    <string name="best_score_key">bestScore</string>
+    <string name="keyMusic_active">music_active</string>
+    <string name="defaultValue_string"></string>
+    <string name="sureToQuit">Are you sure to quit?</string>
+
+
+
 </resources>

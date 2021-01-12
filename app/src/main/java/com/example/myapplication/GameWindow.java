@@ -21,13 +21,20 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myapplication.Dialogs.Dialogs;
 import com.example.myapplication.Falling.Falling;
 import com.example.myapplication.Falling.INotifyGame;
+import com.example.myapplication.Music.MusicPlayer;
+import com.example.myapplication.Preferences.SPreferences;
 import com.example.myapplication.Score.IScoreChange;
+import com.example.myapplication.Score.ScoreHandling;
 import com.example.myapplication.Settings.ISettingsChanged;
+import com.example.myapplication.Settings.SettingsDialog;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
+import tyrant.explosionfield.BuildConfig;
 
 public class GameWindow extends AppCompatActivity implements INotifyGame, IScoreChange, ISettingsChanged {
 
@@ -80,7 +87,7 @@ public class GameWindow extends AppCompatActivity implements INotifyGame, IScore
         backgroundMusicMenu.StartMusic();
 
         //Music and DarkMode setter
-        OnDarkModeStateChanged((boolean)SPreferences.Get(context.getString(R.string.keyDarkmode),Boolean.class,context));
+        OnDarkModeStateChanged((boolean) SPreferences.Get(context.getString(R.string.keyDarkmode),Boolean.class,context));
         //OnMusicStateChange((boolean)SPreferences.Get(context.getString(R.string.keyMusic), Boolean.class,context)); //Already done in the "onResume"-Method
     }
 
